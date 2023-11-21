@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:latest-alpine3.18'
+            image 'node-alpine3.18'
             args '-p 3000:3000 --env DOCKER_HOST=tcp://docker:2376'
             
         }
