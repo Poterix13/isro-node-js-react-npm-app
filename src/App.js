@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">AKWABA</h1>
         </header>
         <p className="App-intro">
-          Pour ajouter du contenu au site merci d'inserer les fichier dans le repertoire <code>src/App.js</code> and save to reload.
+          Pour ajouter du contenu au site merci d'inserer les fichiers dans le repertoire <code>src/</code> et sauvagarder avant de relancer.
         </p>
       </div>
     );
